@@ -11,23 +11,23 @@
     font-style: normal;
 }
 #body{
-    background-color: #F56A8D;
+    background: linear-gradient(to bottom, #F56A8D,white, rgb(249, 204, 53));
 }
 
 .box{
-
     border-radius: 30px;
-    margin-top: 25px;
     width: 155px;
     height: 155px;
-    background-color: #fff;
+    background-color: white;
     position: absolute;
     display: flex;
     align-items: center;
     top: 135px;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid black;
 }
+/*rgb(255, 204, 36)*/
 .back{
     border: 10px black;
     filter:drop-shadow(5px 5px 10px #fff);
@@ -37,6 +37,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .front{
     position: absolute;
     top: 42%;
@@ -64,6 +65,94 @@
     transform: translate(-50%, -50%);
     position:absolute;
     font-family: 'TAEBAEKmilkyway';
-    font-size: 9px;
-   
+    font-size: 9px;  
 }
+
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box3 {
+    width: 40%;
+    max-width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, white, rgb(150, 207, 227));
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .box4 {
+    width: 40%;
+    max-width: 400px;
+    height: 600px;
+    background: linear-gradient(to bottom, white, lightblue); /* 예시로 추가한 스타일 */
+    margin-left: 20px; /* 수평 간격을 위해 왼쪽 마진 추가 */
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .main_img{
+    border-radius: 10%;
+  }
+  
+  .caption{
+    font-family: 'TAEBAEKmilkyway';
+    font-weight:800;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .menu {
+    position: relative;
+    width: 90%;
+    max-width: 90%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .menu:hover{
+    background-color: white;
+  }
+
+
+  .menu2{
+    position: relative;
+    width: 90%;
+    max-width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .menu2:hover{
+    background-color: white;
+  }
+
+  .copyright{
+    font-family: 'TAEBAEKmilkyway';
+    font-weight: 600;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 80px;
+    
+  }
